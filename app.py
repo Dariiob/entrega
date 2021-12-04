@@ -10,7 +10,7 @@ def con_open():
     return  mysql.connector.connect(
         host = 'localhost',
         user = 'root',
-        password ='password',
+        password ='',
         database = 'registros',
         port = 3306,
     )
