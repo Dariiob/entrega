@@ -8,10 +8,10 @@ from flask_jwt_extended import create_access_token, JWTManager, jwt_required, ge
 
 def con_open(): 
     return  mysql.connector.connect(
-        host = 'localhost',
-        user = 'root',
-        password ='',
-        database = 'registros',
+        host = 'academia.c1mebdhdxytu.us-east-1.rds.amazonaws.com',
+        user = 'p2',
+        password ='dFulwIloWMaNDion',
+        database = 'p2',
         port = 3306,
     )
 
